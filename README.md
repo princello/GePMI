@@ -4,6 +4,33 @@ GePMI: A statistical model for personal intestinal microbiome identification
 
 GePMI (Generating inter-individual similarity distribution for Personal Microbiome Identification)
 
+## Quick Tutorial
+python GePMI.py -i test/test-100-18-10000.csv -o output
+### Output files
+Figures
+
+roc-xx-xx-xx.pdf  :
+
+prc-xx-xx-xx.pdf  :
+
+fdr-xx-xx-xx.pdf  :
+
+fdr-xx-xx-xx.d.pdf:
+
+Files
+
+p_values.txt
+
+q_values.txt
+
+detail.txt
+
+result.txt
+
+
+
+Files
+
 ## 0.Preparation(Optional)
 down sample to the same size
 
