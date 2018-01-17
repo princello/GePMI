@@ -64,5 +64,4 @@ Files (-t for generating)
 
 p_values.txt : p value of each test sample in target samples's inter-individual similarity distribution
 
-q_values.txt : q value by Benjamini & Yekutieli method(
-Benjamini Y, Yekutieli D. The control of the false discovery rate in multiple testing under dependency[J]. Annals of Statistics, 2001, 29(4):1165--1188.)
+q_values.txt : q value by Benjamini & Yekutieli method (Benjamini Y, Yekutieli D. The control of the false discovery rate in multiple testing under dependency[J]. Annals of Statistics, 2001, 29(4):1165--1188.)
