@@ -5,12 +5,11 @@ GePMI: A statistical model for personal intestinal microbiome identification
 GePMI (Generating inter-individual similarity distribution for Personal Microbiome Identification(PMI))
 
 ## Quick Tutorial
-python GePMI.py -i test/test-100-18-10000.csv -o output
+`python GePMI.py -i test/test-100-18-10000.csv -o output`
 ### Output files
-detail.txt
+detail.txt:Values of each Test sample in Target sample inter-individual similarity distribution
 
-result.txt
-
+result.txt:Identification of Test sample and Target sample from one individual under threshold
 
 ## 0.Preparation(Optional)
 down sample to the same size
@@ -51,7 +50,7 @@ down sample to the same size
 -t save p/q value matrix or not
 
 
-Figures (-t 
+Figures (-t for generating)
 
 roc-xx-xx-xx.pdf  : Receiver Operating Characteristic of known sample for PMI
 
@@ -61,8 +60,9 @@ fdr-xx-xx-xx.pdf  : False Discovery Rate Comparing of p/q values
 
 fdr-xx-xx-xx.d.pdf: Detail of FDR plot in range of 0 - 0.01
 
-Files
+Files (-t for generating)
 
-p_values.txt : 
+p_values.txt : p value of each test sample in target samples's inter-individual similarity distribution
 
-q_values.txt
+q_values.txt : q value by Benjamini & Yekutieli method(
+Benjamini Y, Yekutieli D. The control of the false discovery rate in multiple testing under dependency[J]. Annals of Statistics, 2001, 29(4):1165--1188.)
