@@ -4,7 +4,7 @@ GePMI: A statistical model for personal intestinal microbiome identification
 
 (Generating inter-individual similarity distribution for Personal Microbiome Identification)
 
-A tool for judging samples from intra or inter-individual from similarity matrix
+A tool for judging samples from intra or inter-individual from pairwise similarities
 
 ## Quick Tutorial
 ### Input file 
@@ -27,7 +27,9 @@ MRA_P1E-0| MRA_P1E-7 | MRA_P1E-90 |
 
 `detail.txt`: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
 
+### A brief manual:
 ![image](https://github.com/princello/GePMI/blob/master/brief%20manual.jpg)
+
 ## Detail
 ### 0.Preparation(Optional)
 down sample to the same size
