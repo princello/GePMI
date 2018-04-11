@@ -2,7 +2,9 @@
 
 GePMI: A statistical model for personal intestinal microbiome identification
 
-(`Ge`nerating inter-individual similarity distribution for `P`ersonal `M`icrobiome `I`dentification(PMI))
+(Generating inter-individual similarity distribution for Personal Microbiome Identification)
+
+A tool for judging samples from intra or inter-individual from similarity matrix
 
 ## Quick Tutorial
 ### Input file 
