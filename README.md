@@ -19,9 +19,9 @@ A glimpse of the result.txt:
 
 Target_sample | Significant_similar_test_sample 1| Significant_similar_test_sample 2 | ......
 ------------- | ------------- | ------------- | -------------
-MRA_P1E-0 | MRA_P1E-7 | MRA_P1E-90 |
+MRA_P1E-90 | 
 MRA_P1E-7 | MRA_P1E-0 | MRA_P1E-90 |
-MRA_P1E-90|
+MRA_P1E-0| MRA_P1E-7 | MRA_P1E-90 |
 
 `detail.txt`: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
 
