@@ -19,7 +19,7 @@ A glimpse of the result.txt:
 
 Target_sample | Significant_similar_test_sample 1| Significant_similar_test_sample 2 | ......
 ------------- | ------------- | ------------- | -------------
-MRA_P1E-90 | 
+MRA_P1E-90 | No matches
 MRA_P1E-7 | MRA_P1E-0 | MRA_P1E-90 |
 MRA_P1E-0| MRA_P1E-7 | MRA_P1E-90 |
 
