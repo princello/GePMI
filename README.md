@@ -6,16 +6,24 @@ GePMI (Generating inter-individual similarity distribution for Personal Microbio
 
 ## Quick Tutorial
 ### Input file 
-Similarity matrix，like test-100-18-10000.csv
+Similarity matrix，like `test-100-18-10000.csv`
 ### Running script
 `python GePMI.py -i test-100-18-10000.csv -o output`
 ### Output files
-result.txt: Identification of Test sample and Target sample from one individual under threshold
+`result.txt`: Identification of Test sample and Target sample from one individual under threshold
 
 The first column shows the target samples used to generate the distribution;
 The following columns are test samples which are significantly similar to the target samples，That is to say, GePMI judgment this(theses) test(s) and target sample come from the same individual
 
-detail.txt: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
+A glimpse of the result.txt:
+
+Target_sample | Significant_similar_test_sample 1| Significant_similar_test_sample 2
+------------- | ------------- | -------------
+MRA_P1E-0 | MRA_P1E-7 | MRA_P1E-90
+MRA_P1E-7 | MRA_P1E-0 | MRA_P1E-90
+MRA_P1E-90|
+
+`detail.txt`: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
 
 ## 0.Preparation(Optional)
 down sample to the same size
