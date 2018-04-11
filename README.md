@@ -25,7 +25,7 @@ MRA_P1E-90|
 
 `detail.txt`: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
 
-![image](GePMI/brief manual.jpg)
+![image](https://github.com/princello/GePMI/blob/master/brief%20manual.jpg)
 ## Detail
 ### 0.Preparation(Optional)
 down sample to the same size
