@@ -25,23 +25,24 @@ MRA_P1E-90|
 
 `detail.txt`: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
 
-## 0.Preparation(Optional)
+## Detail
+### 0.Preparation(Optional)
 down sample to the same size
 
-## 1.Input
+### 1.Input
 [sourmash](https://github.com/dib-lab/sourmash) csv file
 
-### Recommended usage of sourmash
-#### From sequence to signature
+#### Recommended usage of sourmash
+##### From sequence to signature
 `sourmash compute -k 18 -n 10000 subject-sample.fa -o subject-sample.sig`
 >for `subject-sample`,if you know the subject name and sample number,for example:
 >>HMP_subject1-v1.fa, please name it like this
-#### Calculating similarity between signatures
+##### Calculating similarity between signatures
 `sourmash compare -k 18 --csv test-100-18-10000.csv -o test *.sig`
 >We suggest that you name csv output file like this
 >>test-100-18-10000.csv, -18 is KSIZES, -10000 is NUM_HASHES used in sourmash
 
-## 2.GePMI Usage
+### 2.GePMI Usage
 
 `python GePMI.py -i input.csv -p 0.001 -q 0.01 -s 0 -o outputDir -t`
 
