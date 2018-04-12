@@ -15,7 +15,7 @@ MRA_P1E-0 | MRA_P1E-7| MRA_P1E-90 | ......
 1 | 0.2435 | 0.1969 | ......
 0.2435 | 1 | 0.2130 | ......
 0.1969 | 0.2130 | 1 | ......
-...... | 
+...... | ...... | ......
 
 ### Running script
 `python GePMI.py -i test-100-18-10000.csv -o output`
@@ -31,7 +31,7 @@ Target_sample | Significant_similar_test_sample 1| Significant_similar_test_samp
 ------------- | ------------- | ------------- | -------------
 MRA_P1E-0| MRA_P1E-7 | MRA_P1E-90 |
 MRA_P1E-7 | MRA_P1E-0 | MRA_P1E-90 |
-MRA_P1E-90 | No matches
+MRA_P1E-90 | No matches 
 ...... |
 
 `detail.txt`: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
