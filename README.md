@@ -30,7 +30,11 @@ MRA_P1E-0| MRA_P1E-7 | MRA_P1E-90 |
 ### A brief manual:
 ![image](https://github.com/princello/GePMI/blob/master/brief%20manual.jpg)
 
-## Detail
+### Contact
+Please report any problems directly to the GitHub issue tracker
+Also, you can send your feedback to wangzicheng12@mails.tsinghua.edu.cn
+
+## Details
 ### 0.Preparation(Optional)
 down sample to the same size
 
