@@ -44,7 +44,7 @@ MRA_P1E-90 | No matches
 ![image](https://github.com/princello/GePMI/blob/master/brief%20manual.jpg)
 
 ### Contact
-Please report any problems directly to the GitHub issue tracker
+Please report any problems directly to the GitHub [issue tracker](https://github.com/princello/GePMI/issues)
 
 Also, you can send your feedback to wangzicheng12@mails.tsinghua.edu.cn
 
