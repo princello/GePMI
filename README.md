@@ -38,7 +38,7 @@ MRA_P1E-7 | MRA_P1E-0 | MRA_P1E-90 |
 MRA_P1E-90 | No matches 
 ...... |
 
-`detail.txt`: Values(MinHash similarity, GePMI p_values, GePMI q_values) of each Test sample in Target sample inter-individual similarity distribution
+`detail.txt`: Values(MinHash similarity, GePMI p-values, GePMI q-values) of each Test sample in Target sample inter-individual similarity distribution
 
 ### A brief manual:
 ![image](https://github.com/princello/GePMI/blob/master/brief%20manual.jpg)
