@@ -73,18 +73,18 @@ down sample to the same size
 >for eaxamle:
 >>test-100-18-10000.csv
 
--p threshold of p-value (default 0.001)
+* -p threshold of p-value (default 0.001)
 
--q threshold of q-value (default  0.01)
+* -q threshold of q-value (default  0.01)
 
--s threshold of similarity (default  0)
+* -s threshold of similarity (default  0)
 
--o path of output dirctory (default ./output)
+* -o path of output dirctory (default ./output)
 
--t save p/q value matrix or not
+* -t save p/q value matrix or not
 
 
-Figures (-t for generating)
+* Figures (-t for generating)
 
 roc-xx-xx-xx.pdf  : Receiver Operating Characteristic of known sample for PMI
 
