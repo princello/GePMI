@@ -71,7 +71,7 @@ down sample to the same size
 
 `python GePMI.py -i input.csv -p 0.001 -q 0.01 -s 0 -o outputDir -t`
 
--i your input sourmash csv file
+* -i your input sourmash csv file
 
 >Please name it as follows:
 >>[prefix]-[base number(millions)]-[k-mer length]-[hashes used in sourmash].csv
@@ -88,20 +88,15 @@ down sample to the same size
 * -o path of output dirctory (default ./output)
 
 * -t save p/q value matrix or not
-
+>p_values.txt : p value of each test sample in target samples's inter-individual similarity distribution
+>q_values.txt : q value by Benjamini & Yekutieli method (Benjamini Y, Yekutieli D. The control of the false discovery rate in multiple testing under dependency[J]. Annals of Statistics, 2001, 29(4):1165--1188.)
 
 * Figures (-t for generating)
 
-roc-xx-xx-xx.pdf  : Receiver Operating Characteristic of known sample for PMI
+>roc-xx-xx-xx.pdf  : Receiver Operating Characteristic of known sample for PMI
+>prc-xx-xx-xx.pdf  : Precesion-Recall Curve of known sample for PMI
+>fdr-xx-xx-xx.pdf  : False Discovery Rate Comparing of p/q values
+>fdr-xx-xx-xx.d.pdf: Detail of FDR plot in range of 0 - 0.01
 
-prc-xx-xx-xx.pdf  : Precesion-Recall Curve of known sample for PMI
 
-fdr-xx-xx-xx.pdf  : False Discovery Rate Comparing of p/q values
 
-fdr-xx-xx-xx.d.pdf: Detail of FDR plot in range of 0 - 0.01
-
-Files (-t for generating)
-
-p_values.txt : p value of each test sample in target samples's inter-individual similarity distribution
-
-q_values.txt : q value by Benjamini & Yekutieli method (Benjamini Y, Yekutieli D. The control of the false discovery rate in multiple testing under dependency[J]. Annals of Statistics, 2001, 29(4):1165--1188.)
