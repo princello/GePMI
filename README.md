@@ -89,6 +89,7 @@ down sample to the same size
 
 * -t save p/q value matrix or not
 >p_values.txt : p value of each test sample in target samples's inter-individual similarity distribution
+
 >q_values.txt : q value by Benjamini & Yekutieli method (Benjamini Y, Yekutieli D. The control of the false discovery rate in multiple testing under dependency[J]. Annals of Statistics, 2001, 29(4):1165--1188.)
 
 * Figures (-t for generating)
