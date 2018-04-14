@@ -5,7 +5,8 @@ GePMI: A statistical model for personal intestinal microbiome identification
 (Generating inter-individual similarity distribution for Personal Microbiome Identification)
 
 ## Description
-GePMI is a framework for judging metagenomic samples from intra or inter-individual
+GePMI is a framework for judging metagenomic samples from intra or inter-individual.
+
 The principle of GePMI is based on pairwise similarities between the metagenomes of any two individuals obey a Beta distribution and that a p-value derived accordingly well characterizes whether two samples are from the same individual or not. To control the false discovery rate (FDR) in multiple testing, Benjamini and Yekutieli’s method was used to transform p–values to q-values. So GePMI can help you to determine whether the two samples are from the same individual through three thresholds: similarities of input, p-values and q-values.
 
 
