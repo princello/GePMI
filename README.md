@@ -95,8 +95,11 @@ down sample to the same size
 * Figures (-t for generating)
 
 >roc-xx-xx-xx.pdf  : Receiver Operating Characteristic of known sample for PMI
+
 >prc-xx-xx-xx.pdf  : Precesion-Recall Curve of known sample for PMI
+
 >fdr-xx-xx-xx.pdf  : False Discovery Rate Comparing of p/q values
+
 >fdr-xx-xx-xx.d.pdf: Detail of FDR plot in range of 0 - 0.01
 
 
