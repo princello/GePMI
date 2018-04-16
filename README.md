@@ -5,14 +5,14 @@ GePMI: A statistical model for personal intestinal microbiome identification
 (Generating inter-individual similarity distribution for Personal Microbiome Identification)
 
 ## Description
-GePMI.py is a python script for judging metagenomic samples from intra or inter-individual.
+It is well accepted that there is a large number of variants in the human microbiomes, which results in great differences within inter-individuals under the same condition. Here, we aim to identity intra-individual samples through metagenomic similarity.  
 
 The principle of GePMI is based on pairwise similarities between the metagenomes of any two individuals obey a Beta distribution and that a p-value derived accordingly well characterizes whether two samples are from the same individual or not. To control the false discovery rate (FDR) in multiple testing, Benjamini and Yekutieli’s method was used to transform p–values to q-values. So GePMI can help you to determine whether the two samples are from the same individual through three thresholds: similarities of input file, GePMI p-values and GePMI q-values.
 
 
 ## Quick Tutorial
 ### Input file 
-Similarity matrix，like `test-100-18-10000.csv`
+The similarity matrix is the initial input of the method. You can generate it in many ways, but we recommend using [sourmash](https://github.com/dib-lab/sourmash), in a word, your input should be arranged as follows:
 
 MRA_P1E-0 | MRA_P1E-7| MRA_P1E-90 | ......
 ------------- | ------------- | ------------- | -------------
@@ -21,8 +21,13 @@ MRA_P1E-0 | MRA_P1E-7| MRA_P1E-90 | ......
 0.1969 | 0.2130 | 1 | ......
 ...... | ...... | ...... | ......
 
+The first row is the name of samples, the rest part is the corresponding similarities.
+
 ### Running script
 `python GePMI.py -i test-100-18-10000.csv -o output`
+
+GePMI.py is the main python script for judging metagenomic samples from intra or inter-individual.
+
 ### Output files
 `result.txt`: Identification of Test sample and Target sample from one individual under threshold
 
