@@ -12,6 +12,8 @@ The principle of GePMI is based on pairwise similarities between the metagenomes
 
 ## Quick Tutorial
 ### Input file 
+If you want to start analyzing from the initial metagenomic sequence, please jump to details.
+
 The similarity matrix is the initial input of the method. You can generate it in many ways, but we recommend using [sourmash](https://github.com/dib-lab/sourmash), in a word, your input should be arranged as follows:
 
 MRA_P1E-0 | MRA_P1E-7| MRA_P1E-90 | ......
