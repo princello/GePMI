@@ -5,12 +5,13 @@ GePMI: A statistical model for personal intestinal microbiome identification
 (Generating inter-individual similarity distribution for Personal Microbiome Identification)
 
 ## Description
-*  Purpose 
-It is well accepted that there is a large number of variants in the human microbiomes, which results in great differences within inter-individuals under the same condition. Here, we aim to identity intra-individual samples through metagenomic similarity.  
+* Purpose
 
-When you have a set of metagenomic samples, and you want to know which samples come from the same individual. Or if you want to know whether the intra-individual metagenomic samples are still similar before and after some disturbances, it is a good choice to use GePMI.
+When you have a set of metagenomic samples, and you want to know which samples come from the same individual. Or if you want to know whether the intra-individual metagenomic samples are still similar before and after some disturbances, it is a good choice to use GePMI.The purpose of GePMI is to identity intra-individual samples through metagenomic similarity.
 
-The principle of GePMI is based on pairwise similarities between the metagenomes of any two individuals obey a Beta distribution and that a p-value derived accordingly well characterizes whether two samples are from the same individual or not. To control the false discovery rate (FDR) in multiple testing, Benjamini and Yekutieli’s method was used to transform p–values to q-values. So GePMI can help you to determine whether the two samples are from the same individual through three thresholds: similarities of input file, GePMI p-values and GePMI q-values.
+* Principle
+
+It is well accepted that there is a large number of variants in the human microbiomes, which results in great differences within inter-individuals under the same condition. The principle of GePMI is based on pairwise similarities between the metagenomes of any two individuals obey a Beta distribution and that a p-value derived accordingly well characterizes whether two samples are from the same individual or not. To control the false discovery rate (FDR) in multiple testing, Benjamini and Yekutieli’s method was used to transform p–values to q-values. So GePMI can help you to determine whether the two samples are from the same individual through three thresholds: similarities of input file, GePMI p-values and GePMI q-values.
 
 
 ## Quick Tutorial
