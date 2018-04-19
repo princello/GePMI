@@ -5,6 +5,7 @@ GePMI: A statistical model for personal intestinal microbiome identification
 (Generating inter-individual similarity distribution for Personal Microbiome Identification)
 
 ## Description
+*  Purpose 
 It is well accepted that there is a large number of variants in the human microbiomes, which results in great differences within inter-individuals under the same condition. Here, we aim to identity intra-individual samples through metagenomic similarity.  
 
 When you have a set of metagenomic samples, and you want to know which samples come from the same individual. Or if you want to know whether the intra-individual metagenomic samples are still similar before and after some disturbances, it is a good choice to use GePMI.
