@@ -60,7 +60,7 @@ Also, you can send your feedback to wangzicheng12@mails.tsinghua.edu.cn
 
 ## Details
 ### 0.Preparation(Optional)
-down sample to the same size
+Down sample to the same size
 
 ### 1.Input
 [sourmash](https://github.com/dib-lab/sourmash) csv file
